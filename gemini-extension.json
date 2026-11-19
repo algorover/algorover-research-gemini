@@ -1,0 +1,18 @@
+{
+  "name": "algorover-research",
+  "version": "0.1.5",
+  "description": "Discover strategies, preview historical backtests, and read your AlgoRover Research reports.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "algorover-research": {
+      "httpUrl": "https://research.algorover.ai/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "research:read",
+          "research:run"
+        ]
+      }
+    }
+  }
+}
